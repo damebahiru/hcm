@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habesha Christian Mingle Legal Documents</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-lg w-full text-center bg-white shadow-2xl rounded-xl p-8 md:p-12">
+
+        <!-- App Name Header -->
+        <h1 class="text-4xl font-extrabold text-pink-600 mb-4">
+            Habesha Christian Mingle
+        </h1>
+        <p class="text-lg text-gray-700 mb-8">
+            Essential legal documents for our mobile application.
+        </p>
+
+        <!-- Links Section -->
+        <div class="space-y-4">
+            <!-- Link to Terms and Conditions -->
+            <a href="terms.html" class="block w-full py-3 px-6 bg-pink-600 text-white font-semibold text-xl rounded-lg hover:bg-pink-700 transition duration-300 shadow-md transform hover:scale-[1.02] active:scale-[0.98]">
+                Terms and Conditions
+            </a>
+
+            <!-- Link to Privacy Policy -->
+            <a href="privacy.html" class="block w-full py-3 px-6 bg-gray-600 text-white font-semibold text-xl rounded-lg hover:bg-gray-700 transition duration-300 shadow-md transform hover:scale-[1.02] active:scale-[0.98]">
+                Privacy Policy
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-10 pt-4 border-t border-gray-200">
+            <p class="text-sm text-gray-500">
+                &copy; <span id="current-year">2025</span> Habesha Christian Mingle. All Rights Reserved.
+            </p>
+        </footer>
+    </div>
+
+    <!-- Script to dynamically set the current year -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        // REMINDER: Replace 'Habesha Christian Mingle' in the HTML with your actual app name.
+    </script>
+</body>
+</html>
